@@ -1,0 +1,152 @@
+:root {
+    font-family: "Courier", monospace;
+}
+
+body {
+    background-color: rgb(132, 134, 136);
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#container section {
+    margin-top: 50px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    align-items: center;
+    max-width: 1200px;
+    position: fixed;
+    background-color: rgb(132, 134, 136);
+    top: 0;
+}
+
+.nav-bar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    padding: 1em;
+}
+
+.main-title {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    height: 10em;
+}
+
+.main-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+#description {
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#description > div {
+    display: flex;
+}
+
+#description .item .item-icon {
+    margin-right: 50px;
+}
+
+#description .item .item-icon img {
+    width: 95px;
+    height: 95px;
+}
+
+#how-to-eat {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(106, 108, 109);
+    padding: 20px;
+}
+
+.footer-ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pricing-list{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-silver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box-gold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box-vip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.buton{
+    margin: 15px 0;
+    font-weight: 500;
+    background-color: rgb(132, 134, 136);
+    border: 0;
+}
+
+.pricing-list > div{
+    border: 1px solid black;
+}
+
+.dollar{
+    text-align: center;
+}
